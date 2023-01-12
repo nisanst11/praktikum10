@@ -43,5 +43,5 @@ print(txt.format(umur))
 
 output latihan 1 dan 2
 ![gambar](https://github.com/nisanst11/praktikum10/blob/master/screenshoot/1.jpeg)
-![gambar](https://github.com/nisanst11/praktikum10/blob/master/screenshoot/2.jpeggit)
+![gambar](https://github.com/nisanst11/praktikum10/blob/master/screenshoot/2.jpeg)
 
