@@ -1,1 +1,47 @@
 # praktikum10
+## String
+
+~~~bash 
+String Python adalah kumpulan karakter yang dikelilingi oleh tanda kutip tunggal, tanda kutip ganda, atau tanda kutip tiga. Komputer tidak memahami karakter; secara internal, ini menyimpan karakter yang dimanipulasi sebagai kombinasi dari 0 dan 1.
+Setiap karakter dikodekan dalam karakter ASCII atau Unicode. Jadi kita dapat mengatakan bahwa string Python juga disebut kumpulan karakter Unicode.
+Python String Format
+~~~
+
+
+### Penjelasaan lengkapnya bisa dilihat disini
+## Latihan 1
+~~~bash
+txt = 'Hello World'
+print(f"Teks = {txt}")
+# Menghitung jumlah karakter
+print("Jumlah Karakter = ",len(txt))
+Mengambil karakter terakhir
+a = txt[-1]
+print('Karakter Terakhir = ',a)
+# Mengambil karakter ke-2 sampai ke-4
+b = txt[2:5]
+print(f"Karakter ke-2 sampai ke-4 = {b}")
+# Hilangkan spasi pada text 
+c = txt.replace(" ","")
+print("Spasi di hilangkan = ",c)
+# Ubah teks menjadi huruf besar
+d = txt.upper()
+print(f"Teks menjadi huruf besar = {d}")
+# Ubah teks menjadi huruf kecil
+e = txt.lower()
+print(f"Teks menjadi huruf kecil = {e}")
+# Ganti karakter H dengan karakter J
+f = txt.replace("H","J")
+print(f"Menganti karakter H dengan J = {f}")
+~~~
+
+## Latihan 2
+~~~bash
+txt = 'Hello, nama saya john, dan umur saya adalah {0} tahun'
+print(txt.format(umur))
+~~~
+
+output latihan 1 dan 2
+![IMG-20221228-WA0035](https://user-images.githubusercontent.com/116271847/209835505-b76099a5-bc59-476d-967d-f2e8651784f3.jpg)
+![IMG-20221228-WA0036](https://user-images.githubusercontent.com/116271847/209835511-070eb672-a278-4bc1-b2f8-cd07dfe02c36.jpg)
+
