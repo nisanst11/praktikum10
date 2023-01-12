@@ -1,0 +1,8 @@
+print("Nama     : khairunnisa nasution")
+print("Kelas    : TI.22.C1")
+print("NIM      : 312210026")
+print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+umur = 24
+txt = "\nHello, Nama Saya Kjohn, dan umur saya adalah {0} tahun\n"
+
+print(txt.format(umur)) 
